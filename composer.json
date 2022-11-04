@@ -1,0 +1,21 @@
+{
+    "name": "alviden/jaro-winkler",
+    "description": "Implementation of the Jaro-winkler algorithm and hash search based on similarity",
+    "type": "library",
+	"keywords": ["library", "Jaro", "Winkler", "corrector", "php", "PuntoSwitcher"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Videneev",
+            "email": "al.videneev@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+	},
+    "autoload": {
+        "psr-4": {
+            "alviden\\jaro-winkler\\": "src/"
+        }
+    }
+}
